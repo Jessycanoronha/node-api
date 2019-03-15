@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 //Iniciando o BD
-
+mongoose.connect('mongodb://localhost:27017/nodeapi', {useNewUrlParser: true});
 
 //Primeira rota
 app.get('/', (req, res)=>{
