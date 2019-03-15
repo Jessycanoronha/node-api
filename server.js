@@ -1,5 +1,5 @@
 const express = require('express');
-
+const mongoose = require('mongoose');
 const app = express();
 //toda vez qu eo usuário acessar a rota
 app.get('/', (req, res)=>{
