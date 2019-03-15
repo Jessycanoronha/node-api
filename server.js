@@ -1,7 +1,12 @@
 const express = require('express');
 const mongoose = require('mongoose');
+//iniciando o app
 const app = express();
-//toda vez qu eo usuário acessar a rota
+
+//Iniciando o BD
+
+
+//Primeira rota
 app.get('/', (req, res)=>{
     res.send('Hello Rocketseat');
 
